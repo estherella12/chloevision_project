@@ -1,0 +1,985 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+body{
+    background-color: rgb(248, 224, 196);
+    font-family: 'Roboto' ,sans serif;
+    overflow-x: hidden;
+   
+}
+header{
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+.logo-write{
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 10px;
+   font-size: 25px;
+   color: red;
+}  
+nav {
+    margin-left: 100px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px 18px; 
+}
+.page-acceuil{
+    height:60% ;
+    background-color: rgb(240, 14, 127);
+    display: flex;
+    margin: 0px;
+}
+.image1{
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+}
+.fond-rose{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.zone-vert h3{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 75px;
+    width: 300px;
+    height: 80px;
+    padding-left: 50px;
+    left: 600px;
+    bottom: 300px;
+    top: 256px;
+    position: absolute;
+    z-index: 100;
+    background: rgb(106, 230, 106)  
+    
+} 
+.zone-blanc h3{
+    height: 60px;
+    width: 300px;
+    background-color: white;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 230px;
+    padding-top: 20px;
+    text-align: center;
+    left: 4px;
+    box-shadow: 0px 2px 2px rgb(106, 107, 107);
+}
+.bouton-noir{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: black;
+    border: 1px;
+    font-size: 1,2em;
+    text-align: center;
+    padding: 5px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 30px 0px;
+}
+.A-propos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.name{
+    font-size: 50px;
+    
+}
+.A-propos p{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 45%;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.image-apropos{
+    background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
+    width: 600px;
+    height: 488px;
+    left: 710px;
+    top: 709px;
+    margin-top: 50px ;
+    margin-right: 122px;
+    margin-bottom: 100px;
+}
+.section-2{
+    margin: 0px;
+}
+.nos-produit h2{
+    font-family: 'Roboto';
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    position: relative;
+    bottom: 32px;
+}
+.glasses-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 95px 120px 88px;
+}
+.glass-item{
+    position: relative;
+    top: 0px;
+    bottom: 200px;
+    border-radius: 12px;
+    
+}
+.item-name h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 0px;
+    margin: 5px;
+}
+.item-image{
+    width: 100%;
+    
+}
+.item-link{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+}
+.item-link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.nouvelle-collection{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.item-img{
+    width: 525px;
+    height: 500px;
+    box-shadow: 0px 4px 4px rgb(83, 83, 83); 
+    margin-top: 0px; 
+}
+.item-text{
+    font-size: 50px;
+    text-decoration: none;
+    width: 540px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.temoignage{
+    background-color: white;
+    height: 700px;
+}
+.avis-client h2{
+    font-size: 60px;
+    margin: 30px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.avis-client h2{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein{
+    form{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.avis-container{
+    display: flex; 
+    flex-direction: column;   
+}
+.message1{
+    background-color: rgb(248, 224, 196);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 1100px;
+    height: 100px;
+    margin-left: 100px;
+}
+.message2{
+    background-color: rgb(248, 224, 196);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 1100px;
+    height: 100px;
+    margin: 25px 100px 0px 100px;  
+}
+.item-link2{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    text-decoration: none;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 25px  0px 0px 100px;
+    margin-bottom: 0%;
+    color: white; 
+    padding: 25px;   
+}
+.section-4{
+    height: 900px;
+    margin: 0px;
+}
+.item-galerie h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    padding-top: 20px;
+}
+.item-galerie h2{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein{
+    form{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.galerie{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.item-lunetterie{
+    width: 460px;
+    height: 750px;
+    margin-left: 100px;
+}
+.lunettes{
+    display: flex;
+    justify-content: space-around ;
+    width: 430px;
+    height: 420px;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-right: 100px;
+}
+.item-lunette1{
+    margin-bottom: 3px;
+}
+.section-5{
+    height: 400px;
+}
+.reseau-sociaux{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px;
+    padding-left: 30px;
+
+}
+.Coordonnées h3{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+
+} 
+.heures h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-right: 40px; 
+    color: red;
+    margin-top: 0px; 
+    margin-bottom: 30px;
+   
+} 
+.numero{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 40px;
+    
+} 
+.jours-ouvrable{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 40px;
+    
+}
+.item-icons{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.formulaire{
+    background-color: rgb(109, 114, 119);
+    padding: 30px;
+    width: 100%;
+}
+.heading-rejoindre h2{
+    margin-left: 12%;
+    font-size: 50px;
+}
+.form-input{
+    margin-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 10%;
+   
+}    
+.form-input input{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 20px;
+    color: black;
+    
+}
+.formulaire form{
+    margin: 50px;
+}
+.form-input textarea{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 20px;
+}
+.formulaire form button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: 8%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.image-google{
+    box-shadow: 4px;
+    margin: 0;
+    width: 100%;  
+}
+.nos-partenaires{
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 200px 0px 180px;
+}
+.item-partenaire{
+    width: 130px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.item-partenaire{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein{
+    form{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 50%;
+        width: 100%;
+    }
+}
+.plan-site{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+
+}
+.plan-site ul{
+    margin: 0 auto;
+    list-style: none;
+    width: 1216px;
+}
+.plan-site li{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 30px;
+}
+.plan-site li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px 18px;
+}
+
+@media screen and (max-width:880px) {
+    nav ul {
+        display: block;
+        text-align: center;
+        width: 50%;
+    }
+    header {
+        height: 250px;
+    }
+    nav li a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-size: 15px 18px; 
+    }
+    .page-acceuil{
+        background-color: rgb(240, 14, 127);
+        margin: 0%;
+    }
+    .image1{
+        width: 50%;
+        height: 25%;
+    }
+    .zone-vert h3{
+        width: 20%;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 35px;
+        height: 40px;
+        padding-left: 50px;
+        left: 350px;
+        bottom: 100px;
+        top: 350px;
+    }
+    .zone-blanc h3{
+        height: 30px;
+        width: 200px;
+        font-size: 20px;
+        bottom: 120px;
+       
+    }
+    .bouton-noir{
+        height: 20px;
+        width: 130px;
+        font-size: 15px;
+        text-align: center;
+        left: 200px;
+    }
+    .A-propos p{
+        margin-left: 80px;
+        width: 42%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1;
+        padding-top: 2px;
+        padding-bottom: 50px;
+      
+    }
+    .name{
+        font-size: 25px;
+    }
+    .image-apropos{
+        background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
+        width: 300px;
+        height: 250px;
+        left: 700px;
+        top: 650px;
+        margin-top: 40px ;
+        margin-right: 100px;
+        margin-bottom: 100px;
+    }
+    .nos-produit h2{
+        font-size: 30px;
+    }
+    .item-name h3{
+        font-size: 15px;
+      
+    }
+    .item-image{
+        width: 80%;
+        
+    }
+    .item-link{
+        width: 90px;
+        height: 70px;
+        font-size: 1erm;
+        position: relative;
+        top: -37px;
+    }
+    .item-img{
+        width: 350px;
+        height: 280px;
+        
+    }
+    .item-text{
+        font-size: 30px;
+        text-decoration: none;
+        width: 300px;
+        height: 150px;
+    }
+    .avis-client h2{
+        font-size: 40px;
+        margin: 30px;
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+    .message1{
+        font-size: 20px;
+        padding: 25px;
+        width: 600px;
+        height: 80px;
+        margin-left: 100px;
+    }
+    .message2{
+        font-size: 20px;
+        padding: 25px;
+        width: 600px;
+        height: 80px;  
+    }
+    .item-link2{
+        width: 90px;
+        height: 28px;
+        font-size: 20px;
+        color: white;
+    }
+    .item-lunetterie{
+        width: 300px;
+        height: 500px;
+        margin-left: 100px;
+    }
+    .section-4{
+         height: 600px;
+        
+    }
+    .item-lunette1{
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        margin: 0px 100px 20px 50px;
+        position: relative;
+        
+    }
+    .item-lunette2{
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        margin: 0px 100px 250px 50px;
+        position: relative;
+    }
+    .Coordonnées h3{
+        font-size: 30px ;
+        margin-top: 30px;
+    }
+    .heures h3{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-right: 100px;   
+    } 
+    .numero{
+        font-size: 20px;  
+    } 
+    .jours-ouvrable{
+        font-size: 20px;   
+    }
+    .plan-site li{
+        display: inline-block;
+        font-size: 15px;
+    }
+
+@media screen and (max-width:412px) {
+        nav ul {
+            display: block;
+            text-align: justify;
+            width: 25%;
+            margin-left: 10px;
+        }
+        header {
+            height: 80px;
+        }
+        nav li a{
+            font-size: 10px 
+        }
+        .logo-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 20px;
+        }
+        
+        .logo{
+            width: 40px;
+            height: 40px;
+            margin-top: 7px;
+            margin-right: 2px;
+        }
+        .logo-write{
+           display: flex;
+           justify-content: flex-start;
+           margin-left: 10px;
+           font-size: 15px;
+           color: red;
+        } 
+        .page-acceuil{
+            background-color: rgb(240, 14, 127);
+            margin: 0%;
+        }
+        .image1{
+            width: 50%;
+            height: 60%;
+        }
+        .zone-vert h3{
+            width: 20%;
+            font-weight: 80;
+            font-size: 15px;
+            line-height: 15px;
+            height: 25px;
+            padding-left: 25px;
+            left: 150px;
+            bottom: 50px;
+            top: 150px;
+        }
+        .zone-blanc h3{
+            height: 10px;
+            width: 100px;
+            font-size: 10px;
+            bottom: 25px;
+           
+        }
+        .bouton-noir{
+            height: 10px;
+            width: 60px;
+            font-size: 6px;
+            text-align: center;
+            left: 120px;
+            top: 20px;
+        }
+        .A-propos{
+            height: 250px;
+        }
+        .A-propos p{
+            margin-left: 20px;
+            width: 25%;
+            font-size: 10px;
+            margin-top: 20px;
+          
+        }
+        .name{
+            font-size: 10px;
+        }
+        .image-apropos{
+            background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
+            width: 200px;
+            height: 150px;
+            left: 300px;
+            top: 350px;
+            margin-top: 20px ;
+            margin-right: 20px;
+            margin-bottom: 150px;
+        }
+        .glasses-container{
+            display: flex;
+            justify-content: space-around;
+            margin: 0px 5px 50px 5px;
+        }
+        .nos-produit h2{
+            font-size: 20px;
+        }
+        .item-name h3{
+            font-size: 12px;
+          
+        }
+        .h3 title{
+            font-size: 6px;
+        }
+        .item-image{
+            width: 80%;   
+        }
+        .item-image{
+            width: 100px;
+            height: 150px; 
+        }
+        .item-link{
+            width: 60px;
+            height: 20px;
+            background-color: red;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 3px;
+            position: absolute;
+            left: 30px;
+            margin-top: 200px;
+        }
+        .item-link a{
+            text-decoration: none;
+            font-size: 10px;
+            color: white;
+        
+        }
+        .nouvelle-collection{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            margin: 0 auto;
+            width: 360px;
+            padding: 0 auto;
+        }
+        .item-img{
+            width: 250px;
+            height: 180px;
+        }
+        .item-text{
+            font-size: 15px;
+            text-decoration: none;
+            width: 300px;
+            height: 40px;
+        }
+        .temoignage{
+            width: 100%;
+            height: 400px;
+        }
+        .avis-client h2{
+            font-size: 25px;
+            margin: 20px;
+            padding-top: 25px;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+        .message1{
+            font-size: 15px;
+            padding: 15px;
+            width: 350px;
+            height: 60px;
+            margin-left: 20px;
+        }
+        .message2{
+            font-size: 15px;
+            padding: 15px;
+            width: 350px;
+            height: 60px;
+            margin-left: 20px;  
+        }
+        .item-link2{
+            width: 100px;
+            height: 50px;
+            font-size: 15px;
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 0px 0px 0px 10px;
+        }
+        .item-galerie h2{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .item-lunetterie{
+            width: 150px;
+            height: 300px;
+            margin-left: 60px;
+            margin-bottom: 30px;
+            margin-top: 0px;
+
+        }
+        .section-4{
+             height: 400px;
+             padding-left: 30px;
+            
+        }
+        .lunettes{
+            display: flex;
+            justify-content: space-around ;
+            width: 430px;
+            height: 420px;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-right: 5px;
+        }
+        .item-lunette1{
+            display: flex;
+            justify-content: space-around;
+            width: 180px;
+            height: 150px;
+            flex-direction: column;
+            top: 0px;
+            left: 5px;
+            
+        }
+        .item-lunette2{
+            display: flex;
+            justify-content: space-around;
+            width: 180px;
+            height: 150px;
+            flex-direction: column;
+            top: 5px;
+            left: 5px;
+        }
+        .section5{
+             height: 250px;
+        }
+        .reseau-sociaux{
+            padding: 50px 20px 0px 20px;
+        }
+        .Coordonnées h3{
+            font-size: 23px ;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        .heures h3{
+            font-size: 20px;
+            margin-top: 15px;
+            margin-right: 20px; 
+            margin-left: 30px;  
+        } 
+        .numero{
+            font-size: 18px;
+            margin-left: 10px;  
+        } 
+        .jours-ouvrable{
+            font-size: 15px;
+            margin-left: 30px;   
+        }
+        .item-icons{
+            display: flex;
+            width: 40px;
+            height: 30px;
+            margin-left: 4px;
+            margin-top: 10px;
+        }
+        .formulaire{
+            height: 330px;
+            padding-left: 10px;
+        }
+        .heading-rejoindre h2{
+            margin-left: 10%;
+            font-size: 25px;  
+        }
+        .form-input{
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px; 
+        }    
+        .form-input input{
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+            height: 50px;
+            font-size: 15px;
+            color: black;  
+        }
+        .formulaire form{
+            margin: 20px;
+        }
+        .form-input textarea{
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+            height: 70px;
+            font-size: 15px;
+        }
+        .formulaire form button{
+            padding: 10px;
+            border: none;
+            border-radius: 2px;
+            width: 20%;
+            margin-left: 5%;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .image-google{
+            width: 50%;
+        }
+        .nos-partenaires{
+            height: 70px;
+        }
+
+        .item-partenaire{
+            width: 70px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .plan-site{
+            height: 70px;
+        }
+        .plan-site li a{
+            display: flex;
+            font-size: 10px;
+            justify-content: center;
+        }
+    }
+}
