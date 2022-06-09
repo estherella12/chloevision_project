@@ -121,29 +121,28 @@ nav li a{
     justify-content: space-around;
 }
 .name{
-    font-size: 50px;
+    font-size: 35px;
     
 }
 .A-propos p{
     margin-top: 100px;
     margin-left: 100px;
-    width: 45%;
-    height: 25px;
+    width: 50%;
+    height: 20px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 100;
-    font-size: 35px;
+    font-weight: 100px;
+    font-size: 30px;
     letter-spacing: 1px;
-    line-height: 1;
 }
 .image-apropos{
-    background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
-    width: 600px;
-    height: 488px;
+   
+    width: 450px;
+    height: 400px;
     left: 710px;
     top: 709px;
     margin-top: 50px ;
-    margin-right: 122px;
+    margin-right: 100px;
     margin-bottom: 100px;
 }
 .section-2{
@@ -168,7 +167,6 @@ nav li a{
     top: 0px;
     bottom: 200px;
     border-radius: 12px;
-    
 }
 .item-name h3{
     font-size: 30px;
@@ -177,7 +175,7 @@ nav li a{
     margin: 5px;
 }
 .item-image{
-    width: 100%;
+    width: 80%;
     
 }
 .item-link{
@@ -189,7 +187,7 @@ nav li a{
     border-radius: 5px;
     position: absolute;
     left: 30px;
-    bottom: 5px;
+    bottom: 2px;
 }
 .item-link a{
     text-decoration: none;
@@ -206,16 +204,16 @@ nav li a{
     margin: 0;
 }
 .item-img{
-    width: 525px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     box-shadow: 0px 4px 4px rgb(83, 83, 83); 
     margin-top: 0px; 
 }
 .item-text{
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: none;
     width: 540px;
-    height: 250px;
+    height: 230px;
     margin-left: 80px;
     margin-top: 50px;
 }
@@ -254,7 +252,7 @@ nav li a{
     font-size: 30px;
     padding: 25px;
     border-radius: 10px;
-    width: 1100px;
+    width: 900px;
     height: 100px;
     margin-left: 100px;
 }
@@ -263,7 +261,7 @@ nav li a{
     font-size: 30px;
     padding: 25px;
     border-radius: 10px;
-    width: 1100px;
+    width: 900px;
     height: 100px;
     margin: 25px 100px 0px 100px;  
 }
@@ -544,7 +542,6 @@ nav li a{
         font-size: 25px;
     }
     .image-apropos{
-        background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
         width: 300px;
         height: 250px;
         left: 700px;
@@ -737,7 +734,6 @@ nav li a{
             font-size: 10px;
         }
         .image-apropos{
-            background: url('./../img/superbe-fille-afro-americaine-impertinente-portant-lunettes-soleil_176420-43827.png');
             width: 200px;
             height: 150px;
             left: 300px;
@@ -766,7 +762,7 @@ nav li a{
         }
         .item-image{
             width: 100px;
-            height: 150px; 
+            height: 180px; 
         }
         .item-link{
             width: 60px;
@@ -795,14 +791,14 @@ nav li a{
             padding: 0 auto;
         }
         .item-img{
-            width: 250px;
-            height: 180px;
+            width: 200px;
+            height: 150px;
         }
         .item-text{
             font-size: 15px;
             text-decoration: none;
             width: 300px;
-            height: 40px;
+            height: 30px;
         }
         .temoignage{
             width: 100%;
