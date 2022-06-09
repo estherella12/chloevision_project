@@ -121,7 +121,7 @@ nav li a{
     justify-content: space-around;
 }
 .name{
-    font-size: 35px;
+    font-size: 40px;
     
 }
 .A-propos p{
@@ -132,13 +132,13 @@ nav li a{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100px;
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 1px;
 }
 .image-apropos{
    
-    width: 450px;
-    height: 400px;
+    width: 600px;
+    height: 480px;
     left: 710px;
     top: 709px;
     margin-top: 50px ;
@@ -175,7 +175,7 @@ nav li a{
     margin: 5px;
 }
 .item-image{
-    width: 80%;
+    width: 100%;
     
 }
 .item-link{
@@ -187,7 +187,7 @@ nav li a{
     border-radius: 5px;
     position: absolute;
     left: 30px;
-    bottom: 2px;
+    bottom: 5px;
 }
 .item-link a{
     text-decoration: none;
@@ -204,13 +204,13 @@ nav li a{
     margin: 0;
 }
 .item-img{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 480px;
     box-shadow: 0px 4px 4px rgb(83, 83, 83); 
     margin-top: 0px; 
 }
 .item-text{
-    font-size: 45px;
+    font-size: 50px;
     text-decoration: none;
     width: 540px;
     height: 230px;
@@ -252,7 +252,7 @@ nav li a{
     font-size: 30px;
     padding: 25px;
     border-radius: 10px;
-    width: 900px;
+    width: 1100px;
     height: 100px;
     margin-left: 100px;
 }
@@ -261,7 +261,7 @@ nav li a{
     font-size: 30px;
     padding: 25px;
     border-radius: 10px;
-    width: 900px;
+    width: 1100px;
     height: 100px;
     margin: 25px 100px 0px 100px;  
 }
