@@ -853,16 +853,15 @@ nav li a{
         .nouvelle-collection{
             display: flex;
             justify-content: space-between;
-            padding-top: 0px;
-            padding-bottom: 20px;
+             
             margin: 0 auto !important;
             width: 380px;
-            padding: 0 auto;
+        
         }
         .item-img{
             width: 200px;
             height: 150px;
-            margin-left: 0px;
+            margin-left: 0px !important;
         }
         .item-text{
             font-size: 10px;
